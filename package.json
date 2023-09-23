@@ -1,0 +1,22 @@
+{
+  "name": "drone",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon dist/app.js",
+    "compile": "tsc --w"  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.4",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.5"
+  }
+}
